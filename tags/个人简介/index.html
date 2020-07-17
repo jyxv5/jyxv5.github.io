@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JYX">
+    <meta name="keywords" content="标签: 个人简介, JYX">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JYX</title>
+    <title>标签: 个人简介 | JYX</title>
     <link rel="icon" type="image/png" href="/jyxfavicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -241,63 +241,9 @@
 
 </header>
 
-    
-<style>
-    .carousel-control {
-        width: 45px;
-        height: 45px;
-        line-height: 55px;
-        border-radius: 45px;
-        background: transparent;
-        cursor: pointer;
-        z-index: 100;
-    }
-
-    #prev-cover {
-        position: absolute;
-        top: 48%;
-        left: 8px;
-    }
-
-    #next-cover {
-        position: absolute;
-        top: 48%;
-        right: 8px;;
-    }
-
-    #prev-cover i {
-        margin-right: 3px;
-    }
-
-    #next-cover i {
-        margin-left: 3px;
-    }
-
-    .carousel-control:hover {
-        background-color: rgba(0, 0, 0, .4);
-    }
-
-    .carousel-control i {
-        color: #fff;
-        font-size: 2.4rem;
-    }
-</style>
-
-
-
-<div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
-    
-        <div id="prev-cover" class="left waves-effect carousel-control">
-            <i class="icon fa fa-angle-left"></i>
-        </div>
-        <div id="next-cover" class="right waves-effect carousel-control">
-            <i class="icon fa fa-angle-right"></i>
-        </div>
-    
-
-    <div class="carousel-item red white-text bg-cover about-cover">
-        <div class="container">
-            <div class="row">
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
@@ -334,361 +280,61 @@
 </script>
 
 
-
-            <div class="cover-btns">
-                <a href="#indexCard" class="waves-effect waves-light btn">
-                    <i class="fa fa-angle-double-down"></i>开始阅读
-                </a>
-
-                
-                    <a href="tencent://message/?Menu=yes&uin=1628607975&Service=300&sigT=45a1e5847943b64c6ff3990f8a9e644d2b31356cb0b4ac6b24663a3c8dd0f8aa12a595b1714f9d45" class="waves-effect waves-light btn" target="_blank">
-                        <i class="fab fa-qq"></i>你好
-                    </a>
-                
-            </div>
-            <div class="cover-social-link">
-    <a href="https://github.com/jyxv5" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-        <i class="fab fa-github"></i>
-    </a>
-
-
-
-    <a href="mailto:1628607975@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
-
-
-
-
-
-
-
-    <a href="tencent://message/?Menu=yes&uin=1628607975&Service=300&sigT=45a1e5847943b64c6ff3990f8a9e644d2b31356cb0b4ac6b24663a3c8dd0f8aa12a595b1714f9d45" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1628607975" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
-
-
-
-
-
-
-
-</div>
-        </div>
     </div>
-
-    
-        
-
-        
-            
-            <div class="carousel-item amber white-text carousel-post bg-cover"
-                 style="background-image: url('/source/images/15.jpg');">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s10 offset-s1">
-                            <div class="title center-align">张沛骏的个人简历</div>
-                            <div class="description center-align">
-                                
-                                    基本信息姓名： 张沛骏
-性别： 女
-爱好： 打飞机 吃奥利给
-家庭成员女朋友照片：老婆照片：
-爸爸照片：妈妈照片：
-个人事迹
-吃过奥利给，喝过马桶水，还和本伟亲过嘴，茄子女装为他打开腿，老太太了见他都b流水，是他是他就是他,他就是少年英雄小
-                                
-                            </div>
-                            <div class="cover-btns">
-                                <a href="/2019/10/03/%E5%BC%A0%E6%B2%9B%E9%AA%8F%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/" class="waves-effect waves-light btn"
-                                   target="_blank">
-                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-    
 </div>
-
-<script>
-    $(function () {
-        let coverSlider = $('.carousel');
-
-        //用户触摸轮播自动 restartPlay 是否生效
-        let initUserPressedOrDraggedActive = false
-
-        //用户触摸轮播自动 restartPlay
-        function initUserPressedOrDragged(instance) {
-            setInterval(() => {
-                if (instance.pressed || instance.dragged) {
-                    // console.log('initUserPressedOrDragged: ',instance.pressed,instance.dragged)
-                    restartPlay()
-                }
-            }, 1000)
-        }
-
-        coverSlider.carousel({
-            duration: Number('120'),
-            fullWidth: true,
-            indicators: 'true' === 'true',
-            onCycleTo() {
-                if (!initUserPressedOrDraggedActive) {
-                    // console.log('initUserPressedOrDraggedActive')
-                    initUserPressedOrDragged(this)
-                    initUserPressedOrDraggedActive = true
-                }
-            },
-        })
-
-        let carouselIntervalId;
-        
-        // Loop to call the next cover article picture.
-        let autoCarousel = function () {
-            carouselIntervalId = setInterval(function () {
-                coverSlider.carousel('next');
-            }, 5000);
-        };
-        autoCarousel();
-        
-
-        function restartPlay() {
-            
-            clearInterval(carouselIntervalId);
-            autoCarousel();
-            
-        };
-
-        
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
-        
-    });
-</script>
-
-
 
 <main class="content">
 
     
-    <div id="indexCard" class="index-card">
-        <div class="container ">
-            <div class="card">
-                <div class="card-content">
-                    
-                        <div class="dream">
-    
-    <div class="title center-align">
-        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;网站提示
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            大噶好，我是网站作者阿旭，本网站采用的是Master制作，用于学术研究欢迎大家访问网页谢谢啦！—JYX
+
+<div id="tags" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
+            </div>
+            <div class="tag-chips">
+                
+                
+                <a href="/tags/Wed/" title="Wed: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Wed" style="background-color: #F9EBEA;">Wed
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B/" title="个人简介: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="个人简介" style="background-color: #F5EEF8;">个人简介
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+            </div>
         </div>
     </div>
 </div>
 
-                    
-
-                    
-
-                    
-
-                    
-                    <div id="recommend-sections" class="recommend">
-                        
-
-
-
-
-
-<div class="title"><i class="far fa-thumbs-up"></i>&nbsp;&nbsp;推荐文章</div>
-
-<div class="row">
-
-    
-    
-    <div class="col s12" >
-        <div class="post-card" style="background-image: url('/source/images/15.jpg')">
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                            <a href="/categories/%E7%AE%80%E4%BB%8B/" class="category">简介</a>
-                        
-                    
-                </div>
-                <a href="/2019/10/03/%E5%BC%A0%E6%B2%9B%E9%AA%8F%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/">
-                    <h3 class="post-title">张沛骏的个人简历</h3>
-                </a>
-                <p class="post-description">基本信息姓名： 张沛骏
-性别： 女
-爱好： 打飞机 吃奥利给
-家庭成员女朋友照片：老婆照片：
-爸爸照片：妈妈照片：
-个人事迹
-吃过奥利给，喝过马桶水，还和本伟亲过嘴，茄子</p>
-                <a href="/2019/10/03/%E5%BC%A0%E6%B2%9B%E9%AA%8F%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
     
 
-</div>
-
-
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
-    
-
-    <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
-        <div class="row article-row">
+        <div class="row tags-posts">
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/07/07/%E6%9D%8E%E5%8F%AF%E6%98%AF%E5%A6%82%E4%BD%95%E5%8F%98%E6%88%90%E5%82%BB%E5%AD%90%E7%9A%84/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="李可的挠弹之谜">
-                            
-                            <span class="card-title">李可的挠弹之谜</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                有一天李可出门没有带脑子，突然一颗大树的果子砸到了他，然而他不知道那是傻逼树的果子又大又红，他直接口水流了一地然后他就吃了，就在这时他傻了！！！然后他到处乱冲突然撞到了一棵聪明树，他此时恍然大悟认识到了自己是sb突然他想变聪明了，他吃下了果
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-07
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                JinYongXv
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Wed/">
-                            <span class="chip bg-color">Wed</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/06/18/%E6%95%99%E4%BD%A0%E5%A6%82%E4%BD%95%E5%85%8D%E8%B4%B9%E5%BB%BA%E7%AB%99/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="教你如何免费建站">
-                            
-                            <span class="card-title">教你如何免费建站</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                使用GitHub建站需要的工具
-nodejs
-GIT
-
-
-操作流程
-1.配置nodejs教程
-2.配置Git教程
-3.配置淘宝云
-
-
-使用Hexo搭建博客
-4.脚本的使用教程
-5.使用Matery主题快速建站
-Matery官网
-
-
-谢谢赏阅
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-18
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                JinYongXv
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/Wed/">
-                            <span class="chip bg-color">Wed</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            <div class="article tag-post col s12 m6 l4" data-tags="个人简介" data-aos="fade-up">
                 <div class="card">
                     <a href="/2019/10/03/%E5%BC%A0%E6%B2%9B%E9%AA%8F%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             <img src="/source/images/15.jpg" class="responsive-img" alt="张沛骏的个人简历">
                             
                             <span class="card-title">张沛骏的个人简历</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                基本信息姓名： 张沛骏
-性别： 女
-爱好： 打飞机 吃奥利给
-家庭成员女朋友照片：老婆照片：
-爸爸照片：妈妈照片：
-个人事迹
-吃过奥利给，喝过马桶水，还和本伟亲过嘴，茄子女装为他打开腿，老太太了见他都b流水，是他是他就是他,他就是少年英雄小
-                            
-                        </div>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2019-10-03
@@ -698,29 +344,18 @@ Matery官网
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
                                 <a href="/categories/%E7%AE%80%E4%BB%8B/" class="post-category">
-                                    简介
+                                简介
                                 </a>
                                 
                                 
                             </span>
                         </div>
                     </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B/">
-                            <span class="chip bg-color">个人简介</span>
-                        </a>
-                        
-                    </div>
-                    
                 </div>
             </div>
             
         </div>
     </article>
-
 </main>
 
 
